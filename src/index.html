@@ -10,20 +10,20 @@
     <style type="text/css">
       body {
         margin: 10px;
-        white-space: nowrap;
+        white-space: pre;
       }
       h1 {
         font-size: 15px;
       }
-      #template {
-        display:none;
+      button {
+        width: 100px;
+        height: 20px;
       }
       #container {
-        height:50px;
-        width:50px;
-        align-items: center;
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        height:150px;
+        width:350px;
       }
     </style>
 
@@ -41,14 +41,7 @@
 
   <body>
     <div id="root"></div>
-    <h1>TEXT GOES HERE dewd</h1>
-    <div id="container">
-      <button id="clicky">GET IFRAMES</button>
-    </div>
-    <div id="display">la</div>
-    <div id="counter"></div>
 
     <script type="text/javascript" src="popup.js"></script>
-<!--     <script type="text/javascript" src="popup.js"></script> -->
-  </body>-
+  </body>
 </html>
